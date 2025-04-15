@@ -59,9 +59,9 @@ const AbroadEnquiries = () => {
           title="Living in the UK"
           intro="Adjusting to life in a new country can be both exciting and challanging. Seedgap provides practical support to help you settle in."
           points={[
-            "Academic check-ins",
-            "Mental wellness support",
-            "Peer community access",
+            "Accommodations: Discover safe, convenient housing options",
+            "jobs: Acess part-time job oppurtunities to support your studies",
+            "Social integration: Connect with new friends and immerse yourself in the UK's vibrant culture.",
           ]}
         />
       </div>

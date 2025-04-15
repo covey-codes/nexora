@@ -1,5 +1,10 @@
-const MeetOurTeam = () => {
-  return <div>MeetOurTeam</div>;
-};
 
-export default MeetOurTeam;
+const MeetOurTeam = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default MeetOurTeam

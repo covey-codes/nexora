@@ -1,5 +1,4 @@
-import ServiceBox from "@/components/serviceBox";
-import graduate from "@/assets/graduate.png";
+import ServiceBox from "@/components/ServiceBox";
 
 const AbroadEnquiries = () => {
   return (
@@ -20,7 +19,7 @@ const AbroadEnquiries = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
         <ServiceBox
-          image={graduate}
+          image='/graduate.png'
           title="Admissions"
           intro="The US university admission process can be complex, but we are here to simplify it for you. Our team provides personalized support to help you."
           points={[
@@ -31,7 +30,7 @@ const AbroadEnquiries = () => {
         />
 
         <ServiceBox
-          image={graduate}
+          image='/contact.png'
           title="Visa"
           intro="Securing a US student visa is a crusial part of your journey, and we are here to make it easy. Our visa experts will."
           points={[
@@ -44,7 +43,7 @@ const AbroadEnquiries = () => {
 
       <div className="flex flex-col gap-6 max-w-4xl mx-auto mt-10">
         <ServiceBox
-          image={graduate}
+          image='/dollar.png'
           title="Funding"
           intro="Education is a valuable experience, and we are committed to helping you make it affordable. We offer:"
           points={[
@@ -55,7 +54,7 @@ const AbroadEnquiries = () => {
         />
 
         <ServiceBox
-          image={graduate}
+          image='/house.png'
           title="Living in the UK"
           intro="Adjusting to life in a new country can be both exciting and challanging. Seedgap provides practical support to help you settle in."
           points={[

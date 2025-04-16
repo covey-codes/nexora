@@ -1,11 +1,10 @@
-import logo from "@/assets/nexora.png";
 
 const NavbarSection = () => {
   return (
     <div className="sticky top-0 z-50 backdrop-blur-md bg-white/30 shadow-md">
       <div className="max-w-5xl mx-auto  py-3 flex items-center justify-between">
         <div className="w-[70px]">
-          <img src={logo} alt="logo" />
+          <img src='/nexora.png' alt="logo" />
         </div>
 
         <div className="flex-grow flex justify-center space-x-10 text-white font-medium">

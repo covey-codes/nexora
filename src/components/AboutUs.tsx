@@ -1,4 +1,4 @@
-import InfoBox from "@/components/AboutUsInfo";
+import InfoBox from "@/components/InfoBox";
 
 const AboutUs = () => {
   return (

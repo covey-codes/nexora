@@ -1,4 +1,3 @@
-import { FaPhoneAlt, FaMapMarkerAlt, FaHome } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
@@ -12,7 +11,7 @@ const ContactUs = () => {
           
           <div className="flex items-center space-x-4">
             
-            <FaPhoneAlt size={20} />
+            
             <p>Call: +234 800 123 4567</p>
           </div>
           <div className="flex flex-col space-y-2 space-x-3">
@@ -22,12 +21,10 @@ const ContactUs = () => {
           </div>
 
           <div className="flex items-center space-x-3">
-            <FaMapMarkerAlt size={20} />
             <p>Address: 123 Main Street, Lagos, Nigeria</p>
           </div>
 
           <div className="flex items-center space-x-3">
-            <FaHome size={20} />
             <p>23Dud, House No. 12</p>
           </div>
           <div>

@@ -27,17 +27,19 @@ const AbroadEnquiries = () => {
             "Craft and submit standout applications",
             "Confidently handle interviews and meet admission criteria",
           ]}
+          classname="hover:scale-105 hover:shadow-lg transition-transform duration-300"
         />
 
         <ServiceBox
           image='/contact.png'
           title="Visa"
-          intro="Securing a US student visa is a crusial part of your journey, and we are here to make it easy. Our visa experts will."
+          intro="Securing a US student visa is a crucial part of your journey, and we are here to make it easy. Our visa experts will."
           points={[
             "Guide you through all the visa requirements",
-            "Assit with reviewing and completing your applications",
+            "Assist with reviewing and completing your applications",
             "Ensure a smooth, hassle-free visa process from start to finish.",
           ]}
+          classname="hover:scale-105 hover:shadow-lg transition-transform duration-300"
         />
       </div>
 
@@ -47,21 +49,23 @@ const AbroadEnquiries = () => {
           title="Funding"
           intro="Education is a valuable experience, and we are committed to helping you make it affordable. We offer:"
           points={[
-            "Expert advise on finding scholarship opportunities",
-            "Guidiance on student loans and effective financial planning",
+            "Expert advice on finding scholarship opportunities",
+            "Guidance on student loans and effective financial planning",
             "Support in securing grants and bursaries to ease your financial journey",
           ]}
+          classname="hover:scale-105 hover:shadow-lg transition-transform duration-300"
         />
 
         <ServiceBox
           image='/house.png'
           title="Living in the UK"
-          intro="Adjusting to life in a new country can be both exciting and challanging. Seedgap provides practical support to help you settle in."
+          intro="Adjusting to life in a new country can be both exciting and challenging. Seedgap provides practical support to help you settle in."
           points={[
             "Accommodations: Discover safe, convenient housing options",
-            "jobs: Acess part-time job oppurtunities to support your studies",
+            "Jobs: Access part-time job opportunities to support your studies",
             "Social integration: Connect with new friends and immerse yourself in the UK's vibrant culture.",
           ]}
+          classname="hover:scale-105 hover:shadow-lg transition-transform duration-300"
         />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaHome } from "react-icons/fa";
+import { FaPhoneAlt, FaMapMarkerAlt, FaHome } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
@@ -21,13 +21,11 @@ const ContactUs = () => {
             <p>stay connected with us on social media <br /> for updates, tips and success stories from our students.</p>
           </div>
 
-          {/* Additional contact info */}
           <div className="flex items-center space-x-3">
             <FaMapMarkerAlt size={20} />
             <p>Address: 123 Main Street, Lagos, Nigeria</p>
           </div>
 
-          {/* Additional address with icon */}
           <div className="flex items-center space-x-3">
             <FaHome size={20} />
             <p>23Dud, House No. 12</p>
@@ -38,7 +36,6 @@ const ContactUs = () => {
           <div><p>© 2024 powered by Seedgap Ltd </p></div>
         </div>
 
-        {/* Right side: Newsletter / Message Form */}
         <div className="bg-[#035772CC] bg-opacity-80 rounded-xl p-6 text-black shadow-lg">
           <h2 className="text-xl font-semibold mb-4">Leave a Message</h2>
           <form className="space-y-4">
